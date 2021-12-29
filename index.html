@@ -1,0 +1,422 @@
+ <!-- Started building (or planning for) the website on 1st December 2021 -->
+<!-- Finished on ... December 2021 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nathan William's Portfolio</title>
+    <!-- Normalize the webpages based on different browsers -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <!-- Importing fonts from google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- CSS file -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Tiny Slider CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+
+</head>
+<body>
+    
+    <!--
+    <div class="loader">
+        <svg id="loader" version="1.0" width="64px" height="64px" viewBox="0 0 128 128" xml:space="preserve"><g>
+            <path d="M64 0L40.08 21.9a10.98 10.98 0 0 0-5.05 8.75C34.37 44.85 64 60.63 64 60.63V0z" fill="#ffb118"/>
+            <path d="M128 64l-21.88-23.9a10.97 10.97 0 0 0-8.75-5.05C83.17 34.4 67.4 64 67.4 64H128z" fill="#80c141"/>
+            <path d="M63.7 69.73a110.97 110.97 0 0 1-5.04-20.54c-1.16-8.7.68-14.17.68-14.17h38.03s-4.3-.86-14.47 10.1c-3.06 3.3-19.2 24.58-19.2 24.58z" fill="#cadc28"/>
+            <path d="M64 128l23.9-21.88a10.97 10.97 0 0 0 5.05-8.75C93.6 83.17 64 67.4 64 67.4V128z" fill="#cf171f"/>
+            <path d="M58.27 63.7a110.97 110.97 0 0 1 20.54-5.04c8.7-1.16 14.17.68 14.17.68v38.03s.86-4.3-10.1-14.47c-3.3-3.06-24.58-19.2-24.58-19.2z" fill="#ec1b21"/>
+            <path d="M0 64l21.88 23.9a10.97 10.97 0 0 0 8.75 5.05C44.83 93.6 60.6 64 60.6 64H0z" fill="#018ed5"/>
+            <path d="M64.3 58.27a110.97 110.97 0 0 1 5.04 20.54c1.16 8.7-.68 14.17-.68 14.17H30.63s4.3.86 14.47-10.1c3.06-3.3 19.2-24.58 19.2-24.58z" fill="#00bbf2"/>
+            <path d="M69.73 64.34a111.02 111.02 0 0 1-20.55 5.05c-8.7 1.14-14.15-.7-14.15-.7V30.65s-.86 4.3 10.1 14.5c3.3 3.05 24.6 19.2 24.6 19.2z" fill="#f8f400"/>
+            <circle cx="64" cy="64" r="2.03"/><animateTransform attributeName="transform" type="rotate" from="0 64 64" to="-360 64 64" dur="2700ms" repeatCount="indefinite"></animateTransform></g>
+        </svg>
+    </div>
+    -->
+    <div class="stars"></div>
+    <div class="twinkling"></div>
+
+    <div class="nav-container">
+        <header>
+            <a href="index.html" class="logo"><img src="media/logo design.svg" alt="logo"></a>
+            <!-- Desktop Nav -->
+            <nav class="nav-desktop">
+                <ul class="nav-desktop__list">
+                    <li><a href="#work">WORK</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#services">SERVICES</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </nav>
+            <!-- Mobile Nav -->
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav-mobile">
+                <ul class="nav-mobile__list">
+                    <li class="nav-mobile__item"><a href="#work" class="nav-mobile__link">W O R K</a></li>
+                    <li class="nav-mobile__item"><a href="#about" class="nav-mobile__link">A B O U T</a></li>
+                    <li class="nav-mobile__item"><a href="#services" class="nav-mobile__link">S E R V I C E S</a></li>
+                    <li class="nav-mobile__item"><a href="#contact" class="nav-mobile__link">C O N T A C T</a></li>
+                </ul>
+
+                <ul class="nav-mobile__socials">
+                    <li class="nav-mobile__item">
+                        <a href="mailto:nathanwsoe@gmail.com" target="_blank" class="nav-mobile__link">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </li>
+                    <li class="nav-mobile__item">
+                        <a href="https://github.com/nathanwsoe" target="_blank" class="nav-mobile__link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+                    <li class="nav-mobile__item">
+                        <a href="https://www.linkedin.com/in/nathan-william-soegiarto-076823218/" target="_blank" class="nav-mobile__link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li class="nav-mobile__item">
+                        <a href="https://discord.com/users/329882691497492480/" target="_blank" class="nav-mobile__link">
+                            <i class="fab fa-discord"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <!-- Hero -->
+    <div class="hero" id="home">
+        <h1><span class="type" style="--n:19">Hi there,<br>I'm Nathan</span></h1>
+        <div class="content stagger1">
+            <h2>Data Scientist</h2>
+            <a href="#contact" class="button">CONTACT ME</a>
+        </div>
+    </div>
+
+    <div class="parent-work">
+        <div class="wave-wrapper">
+            <!-- Wave SVG 1 -->
+            <svg id="wave1" viewBox="0 0 1440 320"><path transform="scale(-1, 1) translate(-1440, 0)" fill="#006cff" fill-opacity="1" d="M0,32L60,37.3C120,43,240,53,360,101.3C480,149,600,235,720,250.7C840,267,960,213,1080,208C1200,203,1320,245,1380,266.7L1440,288L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
+            <!-- the transform function in "path" is for flipping the SVG horizontally, can also be used to flip it vertically -->
+            <div class="down-arrow">
+                <i class="fas fa-sort-down bounce animated"></i>
+            </div>
+        </div>
+
+        <!-- Work section -->
+        <section class="work" id="work">
+            <h2 class="spaced-text transition1">WORK</h2>
+            <p class="transition1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. At ullam possimus veritatis veniam ipsam distinctio, iusto praesentium. Suscipit, veniam illo!</p>
+            <!-- My works -->
+            <div class="gallery-container">            
+                <div class="gallery">
+                    <div class="gallery-item transition1">
+                        <img class="gallery-image" src="https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=500&h=500&fit=crop" alt="person writing in a notebook beside by an iPad, laptop, printed photos, spectacles, and a cup of coffee on a saucer">
+                        <div class="gallery-content">
+                            <h2 class="gallery-content-title">Item</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam, facere?</p>
+                            <a href="index.html" class="button2">Read more</a>
+                        </div>
+                    </div>
+                    <div class="gallery-item transition1">
+                        <img class="gallery-image" src="https://images.unsplash.com/photo-1515260268569-9271009adfdb?w=500&h=500&fit=crop" alt="sunset behind San Francisco city skyline">
+                        <div class="gallery-content">
+                            <h2 class="gallery-content-title">Item</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam, facere?</p>
+                            <a href="index.html" class="button2">Read more</a>
+                        </div>
+                    </div>
+                    <div class="gallery-item transition1">
+                        <img class="gallery-image" src="https://images.unsplash.com/photo-1506045412240-22980140a405?w=500&h=500&fit=crop" alt="people holding umbrellas on a busy street at night lit by street lights and illuminated signs in Tokyo, Japan">
+                        <div class="gallery-content">
+                            <h2 class="gallery-content-title">Item</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam, facere?</p>
+                            <a href="index.html" class="button2">Read more</a>
+                        </div>
+                    </div>
+                    <div class="gallery-item transition1">
+                        <img class="gallery-image" src="https://images.unsplash.com/photo-1514041181368-bca62cceffcd?w=500&h=500&fit=crop" alt="car interior from central back seat position showing driver and blurred view through windscreen of a busy road at night">
+                        <div class="gallery-content">
+                            <h2 class="gallery-content-title">Item</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam, facere?</p>
+                            <a href="index.html" class="button2">Read more</a>
+                        </div>
+                    </div>
+                    <div class="gallery-item transition1">
+                        <img class="gallery-image" src="https://images.unsplash.com/photo-1445810694374-0a94739e4a03?w=500&h=500&fit=crop" alt="back view of woman wearing a backpack and beanie waiting to cross the road on a busy street at night in New York City, USA">
+                        <div class="gallery-content">
+                            <h2 class="gallery-content-title">Item</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam, facere?</p>
+                            <a href="index.html" class="button2">Read more</a>
+                        </div>
+                    </div>
+                    <div class="gallery-item transition1">
+                        <img class="gallery-image" src="https://images.unsplash.com/photo-1486334803289-1623f249dd1e?w=500&h=500&fit=crop" alt="man wearing a black jacket, white shirt, blue jeans, and brown boots, playing a white electric guitar while sitting on an amp">
+                        <div class="gallery-content">
+                            <h2 class="gallery-content-title">Item</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam, facere?</p>
+                            <a href="index.html" class="button2">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Wave SVG 2 -->
+        <svg id="wave2" viewBox="0 0 1440 320"><path transform="scale(1, 1) translate(0, 0)" fill="#006cff" fill-opacity="1" d="M0,192L80,165.3C160,139,320,85,480,96C640,107,800,181,960,197.3C1120,213,1280,171,1360,149.3L1440,128L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
+    </div>
+
+    <!-- About section -->
+    <section class="about" id="about">
+        <h2 class="spaced-text transition2">ABOUT</h2>
+        <div class="about-content">
+            <div class="transition2" id="illustrated-self-portrait">
+                <img src="media/illustrated-self-portrait.png" alt="illustrated-self-portrait">
+            </div>
+            <div class="left transition2">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis consequuntur nesciunt fuga ipsam, quisquam totam vel qui saepe modi laboriosam.</p>
+                <a href="#work" class="button" id="center-link">MY PORTFOLIO</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services section -->
+    <section class="services" id="services">
+        <h2 class="spaced-text transition3"> SERVICES</h2>
+        <p class="transition3">click on the cards to flip them</p>
+        <div class="services-container">
+            <ul>
+                <li class="transition3">
+                    <div class="card">
+                        <div class="card__inner">
+                            <div class="card__face card__face--front">
+                                <img src="media/card-back-side.png" alt="card-back-side">
+                            </div>
+                            <div class="card__face card__face--back">
+                                <div class="card__content">
+                                    <div class="card__header">
+                                        <svg class="svg-icon" id="web-icon" viewBox="0 0 5 5">
+                                            <g transform="matrix(0.35714285714285715,0,0,0.35714285714285715,0,0)"><g>
+                                                <rect x="0.5" y="0.5" width="13" height="13" rx="1" style="fill: none;stroke: #006CFF;stroke-linecap: round;stroke-linejoin: round"></rect>
+                                                <line x1="0.5" y1="4" x2="13.5" y2="4" style="fill: none;stroke: #006CFF;stroke-linecap: round;stroke-linejoin: round"></line>
+                                                <g>
+                                                  <polyline points="4.5 7 3 8.5 4.5 10" style="fill: none;stroke: #006CFF;stroke-linecap: round;stroke-linejoin: round"></polyline>
+                                                  <polyline points="10 7 11.5 8.5 10 10" style="fill: none;stroke: #006CFF;stroke-linecap: round;stroke-linejoin: round"></polyline>
+                                                  <line x1="6.5" y1="10.5" x2="8" y2="6" style="fill: none;stroke: #006CFF;stroke-linecap: round;stroke-linejoin: round"></line>
+                                                </g>
+                                              </g></g></svg>
+                                    </div>
+                                    <div class="card__body">
+                                        <h3>Web Developement</h3>
+                                        <p>The perfect cocktail should still look and taste perfect no matter the size of the glass you serve it in. We feel the same way about the sites we mix up. From smartphone to desktop, your site should look and function seamlessly.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="transition3">
+                    <div class="card">
+                        <div class="card__inner">
+                            <div class="card__face card__face--front">
+                                <img src="media/card-back-side.png" alt="card-back-side">
+                            </div>
+                            <div class="card__face card__face--back">
+                                <div class="card__content">
+                                    <div class="card__header">
+                                        <svg class="svg-icon" id="ui-ux-icon" viewBox="0 0 160 160">
+                                            <g transform="matrix(11.428571428571429,0,0,11.428571428571429,0,0)"><g>
+                                                <rect x="0.5" y="0.5" width="13" height="13" rx="1" transform="translate(14 14) rotate(180)" style="fill: none;stroke: #006CFF;stroke-linecap: round;stroke-linejoin: round"></rect>
+                                                <path d="M10,6.5a3,3,0,0,1-3,3H7a3,3,0,0,1-3-3V4.31a.5.5,0,0,1,.72-.45L7,5,9.28,3.86a.5.5,0,0,1,.72.45Z" style="fill: none;stroke: #006CFF;stroke-linecap: round;stroke-linejoin: round"></path>
+                                                <line x1="7" y1="9.5" x2="7" y2="13.5" style="fill: none;stroke: #006CFF;stroke-linecap: round;stroke-linejoin: round"></line>
+                                                <line x1="7" y1="13.5" x2="9.5" y2="11" style="fill: none;stroke: #006CFF;stroke-linecap: round;stroke-linejoin: round"></line>
+                                                <line x1="7" y1="13.5" x2="4.5" y2="11" style="fill: none;stroke: #006CFF;stroke-linecap: round;stroke-linejoin: round"></line>
+                                              </g></g></svg>
+                                    </div>
+                                    <div class="card__body">
+                                        <h3>UI/UX</h3>
+                                        <p>The reason you go to your favorite bar isn’t because of the low prices or convenient location; you go there because of the overall experience. We take that same approach with the apps and websites we create.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="transition3">
+                    <div class="card">
+                        <div class="card__inner">
+                            <div class="card__face card__face--front">
+                                <img src="media/card-back-side.png" alt="card-back-side">
+                            </div>
+                            <div class="card__face card__face--back">
+                                <div class="card__content">
+                                    <div class="card__header">
+                                        <svg class="svg-icon" id="data-science-icon" viewBox="0 0 24 24"><path fill="#006CFF" d="M8,16.5a1,1,0,1,0,1,1A1,1,0,0,0,8,16.5ZM12,2C8,2,4,3.37,4,6V18c0,2.63,4,4,8,4s8-1.37,8-4V6C20,3.37,16,2,12,2Zm6,16c0,.71-2.28,2-6,2s-6-1.29-6-2V14.73A13.16,13.16,0,0,0,12,16a13.16,13.16,0,0,0,6-1.27Zm0-6c0,.71-2.28,2-6,2s-6-1.29-6-2V8.73A13.16,13.16,0,0,0,12,10a13.16,13.16,0,0,0,6-1.27ZM12,8C8.28,8,6,6.71,6,6s2.28-2,6-2,6,1.29,6,2S15.72,8,12,8ZM8,10.5a1,1,0,1,0,1,1A1,1,0,0,0,8,10.5Z"/></svg>
+                                    </div>
+                                    <div class="card__body">
+                                        <h3>Data Science</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque voluptas earum dolorem voluptates ea perferendis explicabo obcaecati eligendi rem sit?</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact section -->
+    <div class="parent-contact">
+        <div class="stars"></div>
+        <div class="twinkling"></div>
+        <section class="contact" id="contact">
+            <h2 class="spaced-text transition4">CONTACT ME</h2>
+            <div class="email-form transition4">
+                <form action="https://formsubmit.co/nathanwsoe@gmail.com" method="POST">
+                    <!-- Honeypot -->
+                    <input type="text" name="_honey" style="display:none">
+                    <!-- Disable Captcha -->
+                    <input type="hidden" name="_captcha" value="false">
+                    <!-- Subject -->
+                    <input type="hidden" name="_subject" value="Someone emailed you from nthnwllm.com">
+                    <!-- Success page -->
+                    <input type="hidden" name="_next" value="https://nathanwsoe.github.io/nthnwllm.com/success.html">
+                        <!-- don't forget to make and include the success.html -->
+    
+                    <input type="text" name="name" placeholder="Your Full Name" required>
+                    <input type="email" name="email" placeholder="Your Email Address" required>
+                    <input type="text" name="subject" placeholder="Subject" required>
+                    <textarea name="text" id="contact-form-text" placeholder="Message" cols="30" rows="10" required></textarea>
+                    <div class="send-email">
+                        <button id="send-email-button" type="submit">SEND EMAIL</button>
+                    </div>
+               </form>
+            </div>
+            <div class="transition4">
+                <p>alternatively, here's my card.<p>
+            </div>
+            <div class="business-card transition4" data-tilt data-tilt-glare data-tilt-max-glare="0.8" data-tilt-scale="1.05">
+                <div class="business-card-content">
+                    <div class="left-of-card">
+                        <h4>Nathan William Soegiarto</h4>
+                        <p>nathanwsoe@gmail.com</p>
+                    </div>
+                    <div class="business-socials">
+                        <ul class="socials-list">
+                            <li class="business-socials__item">
+                                <a href="mailto:nathanwsoe@gmail.com" target="_blank">
+                                    <i class="fas fa-envelope"></i>
+                                </a>
+                            </li>
+                            <li class="business-socials__item">
+                                <a href="https://github.com/nathanwsoe" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </li>
+                            <li class="business-socials__item">
+                                <a href="https://www.linkedin.com/in/nathan-william-soegiarto-076823218/" target="_blank">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                            </li>
+                            <li class="business-socials__item">
+                                <a href="https://discord.com/users/329882691497492480/" target="_blank">
+                                    <i class="fab fa-discord"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="js/index.js"></script>
+
+    <!-- For the tilting business card -->
+    <script src="js/vanilla-tilt.min.js"></script>
+
+    <!-- gsap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js" integrity="sha512-eP6ippJojIKXKO8EPLtsUMS+/sAGHGo1UN/38swqZa1ypfcD4I0V/ac5G3VzaHfDaklFmQLEs51lhkkVaqg60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- ScrollTrigger -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js" integrity="sha512-CPA5LMoJI/a5HkSIAKcBtFXe4gqGjPUL2ExF/3PmhrrHI17wod9xOqqF+0WZQRKIIq0KwF8oG5BaiWobtrke3A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+        // Animations
+        gsap.registerPlugin(ScrollTrigger);
+        var tl = gsap.timeline();
+
+        tl.from('header', {
+            opacity: 0,
+            duration: 2,
+            ease: Power4.easeOut
+        })
+
+        tl.from('.stagger1', {
+            y: '-50%',
+            opacity: 0,
+            duration: 1,
+            stagger: 0.2,
+            ease: Power4.easeOut
+        }, '-=.2')
+
+        gsap.to('.down-arrow', {
+            scrollTrigger: {
+                trigger: '#wave2',
+                start: 'top bottom'
+            },
+            opacity: 0
+        })
+
+        gsap.from('.transition1', {
+            scrollTrigger: {
+                trigger: '.transition1',
+                start: 'top bottom'
+            },
+            y: 50,
+            opacity: 0,
+            duration: 1.2,
+            stagger: .3
+        })
+        gsap.from('.transition2', {
+            scrollTrigger: {
+                trigger: '.transition2',
+                start: 'top bottom'
+            },
+            y: 50,
+            opacity: 0,
+            duration: 1.2,
+            stagger: .3
+        })
+        gsap.from('.transition3', {
+            scrollTrigger: {
+                trigger: '.transition3',
+                start: 'top bottom'
+            },
+            y: 50,
+            opacity: 0,
+            duration: 1.2,
+            stagger: .3
+        })
+        gsap.from('.transition4', {
+            scrollTrigger: {
+                trigger: '.transition4',
+                start: 'top bottom'
+            },
+            y: 50,
+            opacity: 0,
+            duration: 1.2,
+            stagger: .3
+        })
+    </script>
+
+</body>
+</html>
