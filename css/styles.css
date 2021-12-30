@@ -961,7 +961,7 @@ input, textarea {
   #illustrated-self-portrait img {
     width: 250px;
   }
-  #center-link {
+  .about #center-link {
     margin: 0;
   }
   .left p {
