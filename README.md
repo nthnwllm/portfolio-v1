@@ -1,0 +1,2 @@
+# portfolio-v1
+This project represents my inaugural endeavor in crafting a personal portfolio website. Its inception coincided with the conclusion of my third semester at Monash University, right as I wrapped up my studies in the course "FIT3179: Data Visualization." Capitalizing on the productive interlude of a summer break, I devoted my time to conceptualizing and creating this online showcase of my work and accomplishments.
